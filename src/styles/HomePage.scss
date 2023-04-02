@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color:#FFF7F0 ;
+}
+.home{
+    width: 100%;
+    height: 100%;
+    .home__header{
+        
+
+        .home__header__text{
+            width: 50%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            flex-flow:column wrap;
+            .home__header__text--heading{
+                font-size: 36px;
+                padding: 1rem 0;
+            }
+            .home__header__text--subheading{
+                font-size: 12px;
+                max-width: 22rem;
+                font-weight: 600;
+                text-align: center;
+                color: gray;
+            }
+        }
+    }
+}

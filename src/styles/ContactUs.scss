@@ -1,0 +1,33 @@
+.contact{
+    width: 60%;
+    height: 35%;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    margin: 3rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .contact__details{
+        max-width: 40%;
+        padding: 4rem 0;
+        h1{
+            padding: 0 0 2rem 0;
+            font-size: 36px;
+        }
+        p{
+            color: rgb(212, 205, 205);
+        }
+    }
+    .contact__button{
+        cursor: pointer;
+        font-size: 16px;
+        width: 20%;
+        height: 55px;
+        border-radius: 2rem;
+        border: none;
+        color: whitesmoke;
+        font-weight: 600;
+        background-color: #EA7564;
+    }
+}
