@@ -9,9 +9,9 @@ const PersonalDetails = () => {
             <img  src={Anne} alt='details'/>
         </section>
         <section className='details__intro'>
-            <h4 className="details__intro__text">
+            <h1 className="details__intro__text">
                 I'm Amy, and I'd love to work on your next project
-            </h4>
+            </h1>
             <p className="details__intro__subtext"> 
                 I love working with others to create beautiful design solutions.
                 I've designed everything from brand illustrations to complete mobile apps.I am also handy with a camera!

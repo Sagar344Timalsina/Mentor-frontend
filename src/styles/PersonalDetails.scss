@@ -2,23 +2,33 @@
     width: 75%;
     height: 55vh;
     margin: auto;
-    // background-color: aliceblue;
     display: flex;
-
+    @media (min-width:768px) and (max-width:1023px) {
+        width: 95%;
+        display: grid;
+        
+        grid-template-columns: auto auto;
+    }
+    
     .details__image {
         width: 50%;
         display: flex;
-            align-items: center;
-            justify-content: center;
-        // height: 350px;
-        // padding: 2rem;
-
+        align-items: center;
+        justify-content: center;
+        @media (min-width:768px) and (max-width:1023px) {
+            width: 100%;  
+          grid-template-columns: auto auto;
+        }
         img {
             object-fit: cover;
-            
             border-radius: 50%;
             width: 24rem;
             height: 24rem;
+            @media (min-width:768px) and (max-width:1023px) {
+                position: relative;
+                right: 14%;
+              
+            }
         }
     }
 
@@ -26,19 +36,32 @@
         width: 30%;
         margin:   auto;
         flex-wrap: wrap;
-
-        .details__intro__text {
-            font-size: 26px;
-            padding: 2rem 0;
+        @media (min-width:768px) and (max-width:1023px) {
+            width: 85%;
+            display: flex;
+            flex-wrap: wrap;
         }
-
+        
+        .details__intro__text {
+            font-size: 30px;
+            padding: 2rem 0;
+            @media (min-width:768px) and (max-width:1023px) {  
+                font-size: 36px;   
+            }
+        }
+        
         .details__intro__subtext {
             font-size: 14px;
             padding: 0 0 2rem 0;
             color: gray;
             text-align: left;
+            @media (min-width:768px) and (max-width:1023px) {  
+                width: 90%;
+                font-size: 22px;   
+                font-weight: 500;
+            }
         }
-
+        
         .details__intro__button {
             cursor: pointer;
             width: 55%;
@@ -49,6 +72,13 @@
             color: whitesmoke;
             font-weight: 600;
             background-color: #EA7564;
+            @media (min-width:768px) and (max-width:1023px) {  
+                width: 70%;
+                height: 75px;
+                font-size: 22px;   
+                font-weight: 600;
+            }
+            
         }
     }
 }

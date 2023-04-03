@@ -22,10 +22,11 @@ const Carousel = () => {
             </section>
             <section className='main-carousel__button'>
                 <span className="main-carousel__button--left">
-                    <AiOutlineArrowLeft size={22} />
+                    <AiOutlineArrowLeft className='button--left' size={32} />
                 </span>
                 <span className="main-carousel__button--right">
-                    <AiOutlineArrowRight size={22} />
+                    
+                    <AiOutlineArrowRight className='button--right' size={32} />
                 </span>
             </section>
         </main>

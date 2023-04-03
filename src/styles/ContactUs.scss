@@ -8,15 +8,34 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    @media (min-width:768px) and (max-width:1023px) {
+        padding:  4rem 0;
+        width: 80%;
+        text-align: center;
+        flex-direction: column;
+    }
     .contact__details{
         max-width: 40%;
-        padding: 4rem 0;
+        padding: 0 0 2rem 0;
+        @media (min-width:768px) and (max-width:1023px) {
+            max-width: 80%;
+            text-align: center;
+            flex-direction: column;
+        }
         h1{
             padding: 0 0 2rem 0;
             font-size: 36px;
+            @media (min-width:768px) and (max-width:1023px) {
+               
+                font-size: 46px;
+            }
         }
         p{
             color: rgb(212, 205, 205);
+            @media (min-width:768px) and (max-width:1023px) {
+               
+                font-size: 22px;
+            }
         }
     }
     .contact__button{
@@ -29,5 +48,11 @@
         color: whitesmoke;
         font-weight: 600;
         background-color: #EA7564;
+        @media (min-width:768px) and (max-width:1023px) {
+           width: 50%;
+           height: 75px;
+           font-weight: 700;
+            font-size: 22px;
+        }
     }
 }

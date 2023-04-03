@@ -8,7 +8,7 @@ import ContactUs from '../components/ContactUs'
 
 const HomePage = () => {
   return (
-    <main className='home'>
+    <div className='home'>
        <header className='home__header'>
         <CommonHeaderFooter/>
         <article className='home__header__text'>
@@ -27,11 +27,11 @@ const HomePage = () => {
         <section className='main__contacts'>
           <ContactUs/>
         </section>
+       </main>
         <footer className='main__footer'>
           <CommonHeaderFooter/>
         </footer>
-       </main>
-    </main>
+    </div>
   )
 }
 
