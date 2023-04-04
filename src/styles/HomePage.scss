@@ -25,11 +25,20 @@ body{
                 text-align: center;
                 
             }
+            @media (max-width:767px) {
+                width: 90%;
+                text-align: center;
+                
+            }
             .home__header__text--heading{
                 font-size: 36px;
                 padding: 1rem 0;
                 @media (min-width:768px) and (max-width:1023px){
                     font-size: 46px;  
+                }
+                @media (max-width:767px) {
+                    font-size: 56px;
+                    
                 }
             }
             .home__header__text--subheading{
@@ -41,6 +50,11 @@ body{
                 @media (min-width:768px) and (max-width:1023px){
                     font-size: 20px;  
                     max-width: 35rem;
+                }
+                @media (max-width:767px) {
+                    font-size: 23px;  
+                    max-width: 35rem;
+                    
                 }
             }
         }

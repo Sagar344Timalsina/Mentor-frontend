@@ -20,6 +20,11 @@
             height: 80px;
             
         }
+        @media (max-width:769px) {
+            width:70px;
+            height: 70px;
+            
+        }
         .header__box--circle{
             width: 20px;
             height: 20px;
@@ -28,6 +33,11 @@
             @media (min-width:768px) and (max-width:1023px){
                 width:40px;
                 height: 40px;
+                
+            }
+            @media (max-width:769px) {
+                width:35px;
+                height: 35px;
                 
             }
         }
@@ -47,6 +57,12 @@
             width:28%;
             height: 75px;
             font-size: 22px;
+        }
+        @media (max-width:769px) {
+            width:45%;
+            height: 70px;
+            font-size: 18px;
+            
         }
     }
 }
